@@ -1,0 +1,490 @@
+
+.wrap {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.about-wrap {
+    background: url(img/Baytikposelok3.jpg);
+    height: 700px;
+}
+
+.header {
+    /* background: url(img2/Baytik_poselok_View030000.jpg); */
+    height: 700px;
+    width: 1350px;
+}
+
+
+.block1 {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.block2 {
+    color: #253659;
+    line-height: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.header-logo {
+    margin-top: 20px;
+}
+
+.text1 {
+    color: #253659;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.block3 {
+    margin-top: 20px;
+}
+
+.header-logo2{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+
+.about-block1{
+    border: 2px #253659 solid;
+    width: 555px;
+    height: 670px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+.about-block2{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.block-btn2{
+    width: 229px;
+    height: 60px;
+    border: 2px #253659 solid;
+    background: white;
+    font-family: raleway;
+    font-size: 18px;
+    color: #253659;
+    font-weight: 600;
+}
+
+.block-btn2.active{
+    width: 229px;
+    height: 60px;
+    border: 2px white solid;
+    background: #253659;
+    color: white;
+}
+
+.about-text1{
+    font-family: raleway;
+    font-size: 18px;
+    color: #253659;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: -1px;
+}
+
+.about-block3{
+    width: 469px;
+    height: 94px;
+    border: 1px #253659 solid;
+    margin-left: 50px;
+}
+
+.about-text2{
+    font-size: 24px;
+    color: #253659;
+    margin-left: 50px;
+    font-weight: 600;
+    font-family: raleway;
+}
+
+.about-block4{
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.about-text3{
+    font-size: 18px;
+    font-family: raleway;
+    font-weight: 600;
+}
+
+.about-text4 {
+    width: 90px;
+    height: 60px;
+    line-height: 60px; 
+    border: 1px #253659 solid ;
+    font-size: 24px;
+    color: #253659;
+    font-weight: 600;
+    font-family: open sans;
+    cursor: pointer;
+    text-align: center; 
+}
+
+.about-text4.active {
+    width: 90px;
+    height: 60px;
+    background: #253659;
+    color: white;
+}
+
+
+.about-text5{
+    width: 90px;
+    height: 60px;
+    background: #253659;
+    color: white;
+    font-weight: 600;
+    font-family: raleway;
+    font-size: 24px;
+    border: 1px #253659 solid ;
+
+}
+
+.about-block5{
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.about-text6{
+    width: 130px;
+    height: 60px;
+    border: 1px #009EE3 solid;
+    line-height: 60px; 
+    font-size: 24px;
+    color: #009EE3;
+    font-weight: 600;
+    font-family: open sans;
+    background: rgba(128, 128, 128, 0.507);
+    text-align: center; 
+
+}
+
+.about-block6{
+    width: 469px;
+    height: 60px;
+    border: 1px #253659 solid;
+    margin-left: 50px;
+}
+
+.about-block7{
+    width: 469px;
+    height: 60px;
+    background: #253659;
+    margin-left: 50px;
+}
+
+.block-btn3{
+    color: white;
+    font-family: raleway;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+}
+
+.block-btn3:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px; 
+
+}
+
+
+.about-text7{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: raleway;
+}
+
+.about-text8{
+    color: #009EE3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 280px;
+}
+
+.about-block8{
+    display: flex;
+    border-bottom: 1px solid;
+    width: 450px;
+}
+
+
+.about-block9{
+    display: flex;
+}
+
+.about-blockes3{
+    width: 555px;
+    height: 350px;
+    background: #2536591A;
+    margin-top: 100px;
+}
+
+.blokes{
+    margin-left: 50px;
+}
+
+.about-text9{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: raleway;
+    margin-left: 70px;
+}
+
+.about-text10{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: raleway;
+}
+
+.about-text11{
+    font-size: 18px;
+    color: #009EE3;
+    margin-left: 150px;
+}
+
+.about-block10{
+    display: flex;
+    margin-left: 70px;
+}
+
+.about-blockes4{
+    width: 555px;
+    height: 300px;
+    background: #2536591A;
+}
+
+.about-blockes{
+    display: flex;
+    margin-left: 40px;
+}
+
+.about-blockes2{
+    margin-left: 50px;
+}
+
+.about-text12{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: raleway;
+    color: #253659;
+    text-align: center;
+}
+
+.about-block11{
+    margin-top: 100px;
+    font-size: 18px;
+    color: #253659;
+    text-align: center;
+    font-family: raleway;
+}
+
+.about-img1{
+    width: 670px;
+    height: 500px;
+    margin-left: 160px;
+}
+
+.about-text14{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: raleway;
+    color: #253659;
+}
+
+.about-text15{
+    font-size: 18px;
+    font-weight: 500;
+    color: #253659;
+    font-family: raleway;
+    width: 500px;
+}
+
+.about-block12{
+    display: flex;
+    margin-top: 100px;
+}
+
+.abut-text2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: raleway;
+    text-align: center;
+    color: #253659;
+    margin-top: 100px;
+}
+
+.abut-text3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: raleway;
+    text-align: center;
+    color: #253659;
+}
+
+.box-img2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.box-img2 img {
+    cursor: pointer;
+}
+.boxes {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.box-img {
+    width: 320px;
+    height: 190px;
+}
+
+.item-text1 {
+    font-size: 36px;
+    color: #253659;
+    font-weight: 600;
+    font-family: raleway;
+}
+
+.items {
+    display: flex;
+    margin-left: 90px;
+}
+
+.items-img1 {
+    background: url(img/krakenimages-Y5bvRlcCx8k-unsplash\ 1.jpg);
+    margin-left: 322px;
+}
+
+.list-img1{
+    margin-left: 150px;
+}
+
+.logo1 {
+    margin-bottom: 15px;
+}
+
+.logo2 {
+    margin-bottom: 15px;
+}
+
+.logo3 {
+    margin-bottom: 35px;
+}
+
+.logo4 {
+    margin-bottom: 25px;
+}
+
+.logo5 {
+    margin-bottom: 42px;
+}
+
+
+
+.footer-background{
+    background: #253659;
+    width: 1340px;
+    height: 350px;
+}
+
+.footer-text1{
+    width: 214px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+}
+
+.footer-text2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+}
+
+.footer-text3{
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-blockes{
+    display: flex;
+    gap: 100px;
+}
+
+.footer-block1{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.footer-block2,
+.footer-block3,
+.footer-block4,
+.footer-block5{
+    margin-top: 50px;
+}
+
+
+
+.footer-logos img {
+    margin-right: 20px; 
+}
+
+.footer-boxes{
+    border-top: 1px white solid;
+    margin-top: 50px;
+}
+
+.footer-box{
+    display: flex;
+}
+
+.footer-text4{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+    margin-left: 50px;
+}
+
+.footer-box1{
+    margin-left: 900px;
+}
+
+.footer-text5{
+    list-style-type: none;
+}
+
+.footer-text6{
+    font-size: 10px;
+    font-weight: 500;
+    color: #009EE3;
+    margin-left: 100px;
+}

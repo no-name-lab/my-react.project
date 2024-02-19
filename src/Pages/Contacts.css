@@ -1,0 +1,285 @@
+/* contact.css */
+
+.wrap {
+    max-width: 1350px;
+    margin: 0 acontact
+}
+.headerr {
+    height: 700px;
+    width: 1350px
+}
+
+
+.block1 {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.block2 {
+    color: #253659;
+    line-height: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.contact-logo {
+    margin-top: 20px;
+}
+
+.text1 {
+    color: #253659;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.block3 {
+    margin-top: 20px;
+}
+
+.contact-logo2{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.contact-text1{
+    font-size: 14px;
+    font-family: open sans;
+    font-weight: 500;
+    color: #253659;
+    letter-spacing: 2px;
+
+}
+
+.contact-text2{
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: 600;
+    color: #253659;
+    letter-spacing: 2px;
+    margin-left: 29px;
+}
+
+.contact-text3{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: open sans;
+    color: #253659;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.contact-box3{
+    display: flex;
+}
+
+.contact-boxes{
+    display: flex;
+}
+
+.contact-box2{
+    margin-left: 100px;
+}
+
+.contact-text4{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: open sans;
+    color: #253659;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.section-text1{
+    font-size: 24px;
+    font-family: open sans;
+    color: #253659;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.section-text2{
+    font-size: 18px;
+    font-family: open sans;
+    font-weight: 500;
+    color: #253659;
+    letter-spacing: 2px;
+}
+
+.section-blockes2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-img1{
+    width: 700px;
+    height: 450px;
+    margin-left: 150px;
+}
+
+.section-blockes{
+    margin-top: 150px;
+}
+
+.section-block1{
+    text-align: center;
+}
+.section-img3{
+    margin-left: 20px;
+}
+.section-img2{
+    margin-right: 20px;
+}
+
+.list-background {
+    /* background: url(img/Rectangle\ 34\ \(1\).png); */
+    width: 1340px;
+    height: 500px;
+}
+
+.list {
+    display: flex;
+}
+
+.list1 {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.list2 {
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 380px;
+    height: 400px;
+    background: #253659CC;
+}
+
+.list-text1 {
+    color: white;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: raleway;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.list-input {
+    border: 1px white solid;
+    width: 290px;
+    height: 50px;
+    background: #253659CC;
+    margin-left: 30px;
+}
+
+.list-input2 {
+    border: 1px white solid;
+    width: 290px;
+    height: 50px;
+    background: #253659CC;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.list-btn {
+    width: 200px;
+    height: 50px;
+    background: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #253659;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+
+
+.footer-background{
+    background: #253659;
+    width: 1340px;
+    height: 350px;
+}
+
+.footer-text1{
+    width: 214px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+}
+
+.footer-text2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+}
+
+.footer-text3{
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-blockes{
+    display: flex;
+    gap: 100px;
+}
+
+.footer-block1{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.footer-block2,
+.footer-block3,
+.footer-block4,
+.footer-block5{
+    margin-top: 50px;
+}
+
+
+
+.footer-logos img {
+    margin-right: 20px; /* Задаем расстояние между изображениями справа */
+}
+
+.footer-boxes{
+    border-top: 1px white solid;
+    margin-top: 50px;
+}
+
+.footer-box{
+    display: flex;
+}
+
+.footer-text4{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: raleway;
+    color: white;
+    margin-left: 50px;
+}
+
+.footer-box1{
+    margin-left: 900px;
+}
+
+.footer-text5{
+    list-style-type: none;
+}
+
+.footer-text6{
+    font-size: 10px;
+    font-weight: 500;
+    color: #009EE3;
+    margin-left: 100px;
+}

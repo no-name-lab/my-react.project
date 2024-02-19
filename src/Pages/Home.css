@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+ 
+body { 
+  font-family: ralewayccd; 
+} 
+ 
+ 
+ 
+ 
+ 
+.wrap { 
+    max-width: 1350px; 
+    margin: 0 auto; 
+} 
+ 
+.header-block { 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.header-background2{ 
+    background-image: url(img/clouds.png); 
+} 
+ 
+.header { 
+    background: url(img/istockphoto.jpg); 
+    background-size: 100%; 
+    backdrop-filter: blur(10px); 
+    /* эффект размытия */ 
+    -webkit-backdrop-filter: blur(10px); 
+    /* для поддержки Safari */ 
+} 
+ 
+.header-background{ 
+    background-image: url(img/BACKGROUND.png); 
+} 
+ 
+.header-img{ 
+    margin-left: -501px; 
+    width: 1400px; 
+} 
+ 
+ 
+.block1 { 
+    display: flex; 
+    list-style-type: none; 
+    gap: 50px; 
+    margin-left: 300px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 14px; 
+    margin-top: 20px; 
+} 
+ 
+.block2 { 
+    color: #253659; 
+    line-height: 4px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 14px; 
+    margin-top: 10px; 
+} 
+ 
+ 
+.header-logo { 
+    margin-top: 20px; 
+} 
+ 
+.text1 { 
+    color: #253659; 
+    text-decoration: none; 
+    font-weight: 600; 
+} 
+ 
+ 
+ 
+ 
+.text1 { 
+    color: #253659; 
+    text-decoration: none; 
+    font-weight: 600; 
+    position: relative; 
+} 
+.text1::after { 
+    content: ''; 
+    position: absolute; 
+    bottom: -2px; 
+    left: 0; 
+    width: 100%; 
+    height: 2px; 
+    background-color: white; 
+    transition: opacity 0.3s ease; 
+    opacity: 0; /* Начальная прозрачность */ 
+} 
+.text1:hover::after, .text1:focus::after { 
+    opacity: 1; /* Прозрачность при наведении или фокусировке */ 
+} 
+ 
+ 
+ 
+ 
+.block3 { 
+    margin-top: 20px; 
+} 
+ 
+.header-text1 { 
+    color: #253659; 
+    line-height: 50px; 
+    font-size: 39px; 
+    font-weight: 600; 
+    font-family: raleway; 
+    width: 350px; 
+} 
+ 
+.header-text2 { 
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    background: #253659; 
+    width: 200px; 
+    height: 59px; 
+    font-size: 20px; 
+    text-align: center; 
+    /* Центрирование текста */ 
+    line-height: 59px; 
+    /* Выравнивание по вертикали */ 
+    margin-top: -20px; 
+} 
+ 
+ 
+.header-img2 { 
+    margin-left: -500px; 
+    width: 1350px; 
+} 
+ 
+ 
+.header-box1 { 
+    margin-top: 130px; 
+    margin-left: 100px; 
+} 
+ 
+ 
+.header-boxes { 
+    display: flex; 
+    /* background: url(img/background\ \(1\).png); */ 
+} 
+ 
+ 
+.section-background { 
+    background: url(img/Baytikposelok.jpg); 
+    height: 700px; 
+    margin-top: -50px; 
+} 
+ 
+ 
+.section-blok1 { 
+    margin-left: 150px; 
+} 
+ 
+ 
+.section-block2 { 
+    width: 1100px; 
+    height: 200px; 
+    background: #253659CC; 
+    margin-left: 140px; 
+    margin-top: 60px; 
+    display: flex; 
+    gap: 40px; 
+} 
+ 
+.block-text1 { 
+    font-family: raleway; 
+    font-size: 36px; 
+    font-weight: 700; 
+    color: #253659; 
+    margin-top: 50px; 
+} 
+ 
+.block-text2 { 
+    font-size: 18px; 
+    font-weight: 600; 
+    font-family: raleway; 
+    color: #253659; 
+    width: 940px; 
+    margin-top: 50px; 
+ 
+} 
+ 
+.text2 { 
+    font-size: 14px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+    width: 150px; 
+} 
+ 
+.text3 { 
+    font-size: 14px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+    width: 120px; 
+} 
+ 
+.text4 { 
+    font-size: 14px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+    width: 180px; 
+} 
+ 
+.text5 { 
+    font-size: 14px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+    width: 215px; 
+} 
+ 
+.blog1 { 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-left: 60px; 
+} 
+ 
+.section-boxes { 
+    display: flex; 
+} 
+ 
+.box { 
+    text-align: center; 
+} 
+ 
+.box img { 
+    transition: transform 0.3s ease; 
+} 
+ 
+.box:hover img { 
+    transform: scale(1.1); 
+} 
+ 
+.box-text1 { 
+    font-size: 14px; 
+    font-family: raleway; 
+    font-weight: 600; 
+    width: 120px; 
+} 
+ 
+.section-box2 { 
+    display: flex;
+gap: 20px; 
+    margin-right: 10px; 
+    margin-top: 50px; 
+} 
+ 
+.box-text2 { 
+    font-size: 38px; 
+    font-family: raleway; 
+    font-weight: 600; 
+    /* width: 260px; */ 
+} 
+ 
+.containers1 { 
+    display: flex; 
+} 
+ 
+.containers2 { 
+    display: flex; 
+} 
+ 
+ 
+
+ 
+ 
+.container1 { 
+    background: url(img/Baytik_poselok_View020000\ \(1\).jpg); 
+    width: 900px; 
+    height: 400px; 
+} 
+ 
+.container2 { 
+    background: url(img/Baytik_poselok_View010004.jpg); 
+    width: 450px; 
+    height: 400px; 
+} 
+ 
+.container3 { 
+    background: url(img/фон.svg); 
+    width: 450px; 
+    height: 400px; 
+} 
+ 
+.container4 { 
+    background: url(img/Baytik_poselok_View02\ 2.jpg); 
+    width: 450px; 
+    height: 400px; 
+} 
+ 
+.container5 { 
+    background: url(img/Baytik_poselok_View01\ 5.jpg); 
+    width: 450px; 
+    height: 400px; 
+} 
+ 
+ 
+ 
+.container1, 
+.container2, 
+.container3, 
+.container4, 
+.container5 { 
+    position: relative; 
+} 
+ 
+.container1::after, 
+.container2::after, 
+.container3::after, 
+.container4::after, 
+.container5::after { 
+    content: ""; 
+    display: block; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 40%; 
+    /* Adjust the height of the overlay */ 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)); 
+    /* Adjust the opacity and colors */ 
+} 
+ 
+.container-text1 { 
+    margin-top: 320px; 
+    font-size: 18px; 
+    font-weight: 600; 
+    color: white; 
+    font-family: raleway; 
+    margin-left: 50px; 
+} 
+ 
+.container-text2 { 
+    font-size: 18px; 
+    font-family: raleway; 
+    color: white; 
+    font-weight: 600; 
+    margin-left: 50px; 
+    margin-top: -10px; 
+} 
+ 
+.container-text3 { 
+    font-size: 14px; 
+    font-family: raleway; 
+    color: white; 
+    margin-left: 50px; 
+    margin-top: -2px; 
+} 
+ 
+ 
+.container-text1, 
+.container-text2, 
+.container-text3 { 
+    position: relative; 
+    /* Ensure text stays on top of the container */ 
+    z-index: 1; 
+    /* Ensure text stays on top of the dark overlay */ 
+    font-family: raleway; 
+    margin-left: 50px; 
+} 
+ 
+.blok { 
+    display: flex; 
+} 
+ 
+.list-background { 
+    /* background: url(img/Rectangle\ 34\ \(1\).png); */ 
+    width: 1340px; 
+    height: 500px; 
+    background: url(img/Rectangle\ 34.png); 
+} 
+ 
+.list { 
+    display: flex; 
+} 
+ 
+.list1 { 
+    margin-top: 200px; 
+    margin-left: 100px; 
+} 
+ 
+.list2 { 
+    margin-left: 150px; 
+    margin-top: 60px; 
+    width: 380px; 
+    height: 400px; 
+    background: #253659CC; 
+} 
+ 
+.list-text1 { 
+    color: white; 
+    font-size: 24px; 
+    line-height: 33px; 
+    font-family: raleway; 
+    margin-left: 30px; 
+    margin-top: 50px; 
+} 
+ 
+.list-input { 
+    border: 1px white solid; 
+    width: 290px; 
+    height: 50px; 
+    background: #253659CC; 
+    margin-left: 30px; 
+} 
+ 
+.list-input2 { 
+    border: 1px white solid; 
+    width: 290px; 
+    height: 50px; 
+    background: #253659CC; 
+    margin-top: 20px; 
+    margin-left: 30px; 
+} 
+ 
+.list-btn { 
+    width: 200px; 
+    height: 50px; 
+    background: white; 
+    margin-left: 30px; 
+    margin-top: 20px; 
+    color: #253659; 
+    font-size: 17px; 
+    font-weight: 600; 
+} 
+ 
+.item-text1 { 
+    font-size: 36px; 
+    color: #253659; 
+    font-weight: 600; 
+    font-family: raleway; 
+} 
+ 
+.items { 
+    display: flex; 
+    margin-left: 90px; 
+} 
+ 
+.items-img1 { 
+    background: url(img/krakenimages-Y5bvRlcCx8k-unsplash\ 1.jpg); 
+    margin-left: 302px; 
+} 
+ 
+.logo1 { 
+    margin-bottom: 15px; 
+} 
+ 
+.logo2 { 
+    margin-bottom: 15px; 
+} 
+ 
+.logo3 { 
+    margin-bottom: 35px; 
+} 
+ 
+.logo4 { 
+    margin-bottom: 25px; 
+} 
+ 
+.logo5 { 
+    margin-bottom: 40px; 
+} 
+ 
+.logo6{ 
+    margin-bottom: 38px; 
+} 
+ 
+ 
+.footer-background{ 
+    background: #253659; 
+    width: 1340px; 
+    height: 350px; 
+} 
+ 
+.footer-text1{ 
+    width: 214px; 
+    font-size: 12px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+} 
+ 
+.footer-text2{ 
+    font-size: 18px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+} 
+ 
+.footer-text3{ 
+    font-weight: 500; 
+    font-family:
+raleway; 
+    color: white; 
+    font-size: 14px; 
+} 
+ 
+.footer-blockes{ 
+    display: flex; 
+    gap: 100px; 
+} 
+ 
+.footer-block1{ 
+    margin-top: 70px; 
+    margin-left: 50px; 
+} 
+ 
+.footer-block2, 
+.footer-block3, 
+.footer-block4, 
+.footer-block5{ 
+    margin-top: 50px; 
+} 
+ 
+ 
+ 
+.footer-logos img { 
+    margin-right: 20px; /* Задаем расстояние между изображениями справа */ 
+} 
+ 
+.footer-boxes{ 
+    border-top: 1px white solid; 
+    margin-top: 50px; 
+} 
+ 
+.footer-box{ 
+    display: flex; 
+} 
+ 
+.footer-text4{ 
+    font-size: 10px; 
+    font-weight: 500; 
+    font-family: raleway; 
+    color: white; 
+    margin-left: 50px; 
+} 
+ 
+.footer-box1{ 
+    margin-left: 900px; 
+} 
+ 
+.footer-text5{ 
+    list-style-type: none; 
+} 
+ 
+.footer-text6{ 
+    font-size: 10px; 
+    font-weight: 500; 
+    color: #009EE3; 
+    margin-left: 100px; 
+}
