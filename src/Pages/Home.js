@@ -57,22 +57,24 @@ function Home() {
                 <div className='header'>
                     <div className='header-background'>
                         <div className='header-background2'>
-                            <div className="header-boxes">
-                                <div className="header-box1">
-                                    <div>
-                                        <p className="header-text1">ПЕРЕНОСИМ СЕМЕЙНЫЙ УЮТ В НОВЫЕ СТЕНЫ</p>
+                            <div className='header-background3'>
+                                <div className="header-boxes">
+                                    <div className="header-box1">
+                                        <div>
+                                            <p className="header-text1">ПЕРЕНОСИМ СЕМЕЙНЫЙ УЮТ В НОВЫЕ СТЕНЫ</p>
+                                        </div>
+
+                                        <div>
+                                            <p className="header-text2">заказать звонок</p>
+                                        </div>
                                     </div>
 
                                     <div>
-                                        <p className="header-text2">заказать звонок</p>
+                                        <img
+                                            src={Baytikposelok}
+                                            className='header-img'
+                                        />
                                     </div>
-                                </div>
-
-                                <div>
-                                    <img
-                                        src={Baytikposelok}
-                                        className='header-img'
-                                    />
                                 </div>
                             </div>
                         </div>
@@ -81,38 +83,39 @@ function Home() {
             </header>
 
             <section className="wrap">
-                {/* Секция */}
-                <div className="section-background">
-                    <div className="section-blokes">
-                        <div className="section-blok1">
-                            <p>. <br />.</p>
-                            <p className="block-text1">О компании</p>
-                            <p className="block-text2">Строительная компания «Байтик Люкс» - это команда профессионалов, стремящихся
-                                улучшить инфраструктуру
-                                города и украсить его, при этом, не изменяя традициям страны. Стабильность и надежность на рынке
-                                строительства и недвижимости с 2014 года. Основная деятельность компании - это строительство
-                                и реализация жилой недвижимости.</p>
-                        </div>
-
-                        <div className="section-block2">
-                            <div className="blog1">
-                                <img src={Group6} />
-                                <p className="text2">Многолетний опыт since 1998 новейшие технологии</p>
+                <div className='section'>
+                    <div className="section-background">
+                        <div className="section-blokes">
+                            <div className="section-blok1">
+                                <p>. <br />.</p>
+                                <p className="block-text1">О компании</p>
+                                <p className="block-text2">Строительная компания «Байтик Люкс» - это команда профессионалов, стремящихся
+                                    улучшить инфраструктуру
+                                    города и украсить его, при этом, не изменяя традициям страны. Стабильность и надежность на рынке
+                                    строительства и недвижимости с 2014 года. Основная деятельность компании - это строительство
+                                    и реализация жилой недвижимости.</p>
                             </div>
 
-                            <div className="blog1">
-                                <img src={Vector1} />
-                                <p className="text3">Построено <br /> более 6 обьектов</p>
-                            </div>
+                            <div className="section-block2">
+                                <div className="blog1">
+                                    <img src={Group6} />
+                                    <p className="text2">Многолетний опыт since 1998 новейшие технологии</p>
+                                </div>
 
-                            <div className="blog1">
-                                <img src={Vector2} />
-                                <p className="text4">Введено в эксплуатацию более 600 000 квадр</p>
-                            </div>
+                                <div className="blog1">
+                                    <img src={Vector1} />
+                                    <p className="text3">Построено <br /> более 6 обьектов</p>
+                                </div>
 
-                            <div className="blog1">
-                                <img src={Vector3} />
-                                <p className="text5">Строительная компания байтик лукс доверие,заслуженное годами</p>
+                                <div className="blog1">
+                                    <img src={Vector2} />
+                                    <p className="text4">Введено в эксплуатацию более 600 000 квадр</p>
+                                </div>
+
+                                <div className="blog1">
+                                    <img src={Vector3} />
+                                    <p className="text5">Строительная компания байтик лукс доверие,заслуженное годами</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -121,43 +124,43 @@ function Home() {
 
                 <div className="section-boxes">
                     <div className="section-box1">
-                        <p className="box-text2">Почему <br /> нас выбирают клиенты</p>
+                        <p className="box-text2">Почему <br/> нас выбирают <br/> клиенты</p>
                     </div>
 
                     <div className="section-box2">
                         <div className="box">
                             <img src={Logo7} />
-                            <p className="box-text1">Договор, который отвечает на все</p>
+                            <p className="box-tekst1">Договор, который отвечает на все</p>
                         </div>
 
                         <div className="box">
                             <img src={Logo1} />
-                            <p className="box-text1">Удобное расположение</p>
+                            <p className="box-tekst2">Удобное расположение</p>
                         </div>
 
                         <div className="box">
-                            <img src={Logo2} />
-                            <p className="box-text1">Гарантия 5 лет</p>
+                            <img style={{marginLeft: '20px'}} src={Logo2} />
+                            <p className="box-tekst3">Гарантия 5 лет</p>
                         </div>
 
                         <div className="box">
-                            <img src={Logo3} />
-                            <p className="box-text1">Качественые материалы</p>
+                            <img style={{marginLeft: '20px'}} src={Logo3} />
+                            <p className="box-tekst4">Качественые материалы</p>
                         </div>
 
                         <div className="box">
-                            <img src={Logo4} />
-                            <p className="box-text1">Полная юридическая безопасность</p>
+                            <img style={{marginLeft: '20px'}} src={Logo4} />
+                            <p className="box-tekst5">Полная юридическая безопасность</p>
                         </div>
 
                         <div className="box">
                             <img src={Logo5} />
-                            <p className="box-text1">Оперативная работа с каждым клиентом</p>
+                            <p className="box-tekst6">Оперативная работа с каждым клиентом</p>
                         </div>
 
                         <div className="box">
                             <img src={Logo6} />
-                            <p className="box-text1">Стабильная работа на рынке более 10 лет</p>
+                            <p className="box-tekst7">Стабильная работа на рынке более 10 лет</p>
                         </div>
                     </div>
                 </div>
@@ -260,7 +263,7 @@ function Home() {
                 <div className="footer-background">
                     <div className="footer-blockes">
                         <div className="footer-block1">
-                            <img src={IMG}/>
+                            <img src={IMG} />
                             <p className="footer-text1">BAYTIK LUX - это профессиональные услуги в области загородного строительства
                                 и архитектурного проектирования в соответствии с европейскими стандартами</p>
                         </div>
@@ -283,19 +286,19 @@ function Home() {
                         <div className="footer-block4">
                             <p className="footer-text2">Мы в социальных сетях</p>
                             <div className="footer-logos">
-                                <img src={Facebook}/>
-                                <img src={Instagram}/>
-                                <img src={Telegram}/>
-                                <img src={Linkedin} /> <br/>
-                                <img style={{marginRight: '20px', marginTop: '20px'}} src={Youtube} alt=""/>
-                                <img style={{marginTop: '20px'}} src={Vk}/>
+                                <img src={Facebook} />
+                                <img src={Instagram} />
+                                <img src={Telegram} />
+                                <img src={Linkedin} /> <br />
+                                <img style={{ marginRight: '20px', marginTop: '20px' }} src={Youtube} alt="" />
+                                <img style={{ marginTop: '20px' }} src={Vk} />
                             </div>
                         </div>
 
 
                         <div className="footer-block5">
                             <p className="footer-text2">Адрес</p>
-                            <p className="footer-text3">г. Бишкек, ул. Токтогула 125/1 <br/> Бизнес- «Авангард» 1 и 2 этажи</p>
+                            <p className="footer-text3">г. Бишкек, ул. Токтогула 125/1 <br /> Бизнес- «Авангард» 1 и 2 этажи</p>
                         </div>
                     </div>
                 </div>

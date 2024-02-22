@@ -1,5 +1,5 @@
-import React from 'react';
 import './About.css'
+import React, { useState } from 'react';
 import Logologo from './img/Logologo.png'
 import Rectangle from './img/Rectangle 68.jpg'
 import Rectangle1 from './img/Rectangle 56.svg'
@@ -20,9 +20,22 @@ import Vk from './img/VK.svg'
 import Linkedin from './img/LinkedIN.svg'
 import Instagram from './img/Instagram.svg'
 import Facebook from './img/Facebook.svg'
+import Vector1 from './img/Vector 33.png'
+import Vector2 from './img/Ellipse 6.png'
+import Vector3 from './img/Vector 32.png'
 
 
 function About() {
+
+
+    const [isActive, setIsActive] = useState(false); // Состояние для отслеживания активности стиля
+
+    // Функция для переключения стиля
+    const toggleStyle = (event) => {
+        event.target.classList.toggle("active"); // Переключаем класс на целевом элементе
+    };
+
+
     return (
         <div>
             <header className="wrap">
@@ -43,21 +56,25 @@ function About() {
                             <button className="block-btn2" onClick={toggleStyle}>Автомобиль</button>
                         </div>
 
-                        <div>
+                        <div className='abut-block2'>
                             <p className="about-text1">Стоимость дома</p>
 
                             <div className="about-block3">
                                 <p className="about-text2">10 000$</p>
+                                <img style={{marginLeft:'20px', marginTop: '-15px'}} src={Vector1} /> <img style={{marginLeft:'-10px',  marginTop: '-15px'}} src={Vector2} /> <img style={{width: '250px', marginLeft:'-20px',  marginTop: '-15px'}} src={Vector3}/>
                             </div>
 
                             <div className="about-block4">
-                                <p className="about-text3"> <img src="img2/Ellipse 10.png" alt="" /> USD</p>
-                                <p className="about-text3"> <img src="img2/Ellipse 10.png" alt="" /> СОМ</p>
-                                <p className="about-text3"> <img src="img2/Ellipse 10.png" alt="" /> РУБ</p>
+                                <p className='circle'/>
+                                <p className="about-text3"> USD</p>
+                                <p className='circle'/>
+                                <p className="about-text3"> СОМ</p>
+                                <p className='circle'/>
+                                <p className="about-text3"> РУБ</p>
                             </div>
 
                             <div>
-                                <p className="about-text1">Первоначальный взнос</p>
+                                <p className="abut-text1">Первоначальный взнос</p>
 
                                 <div className="about-block5">
                                     <p className="about-text4" onClick={toggleStyle}>25%</p>
@@ -108,7 +125,6 @@ function About() {
 
                         <div className="about-blockes4">
                             <div>
-                                <p>.</p>
                                 <p className="about-text9">Результаты расчета</p>
                             </div>
 

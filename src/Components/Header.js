@@ -25,10 +25,10 @@ export default class Header extends Component {
                         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                         <Navbar.Collapse style={{marginRight: '-80px'}} id='responsive-navbar-nav'>
                             <Nav className='me-auto'>
-                                <Nav.Link style={{ marginLeft: '350px', fontSize: '14px', color: '#253659'}} href='/'> Главная  </Nav.Link >
-                                <Nav.Link style={{ fontSize: '14px', color: '#253659'}} href='/about'> О Компании </Nav.Link>
-                                <Nav.Link style={{ fontSize: '14px', color: '#253659'}} href='/contacts'> ЖК – Байтик </Nav.Link>
-                                <Nav.Link style={{ fontSize: '14px', color: '#253659'}} href='/blog'> Выбрать дом </Nav.Link>
+                                <Nav.Link style={{ marginLeft: '350px', fontSize: '14px', color: '#253659', fontFamily:'raleway'}} href='/'> Главная  </Nav.Link >
+                                <Nav.Link style={{ fontSize: '14px', color: '#253659', fontFamily:'raleway'}} href='/about'> О Компании </Nav.Link>
+                                <Nav.Link style={{ fontSize: '14px', color: '#253659', fontFamily:'raleway'}} href='/contacts'> ЖК – Байтик </Nav.Link>
+                                <Nav.Link style={{ fontSize: '14px', color: '#253659', fontFamily:'raleway'}} href='/blog'> Выбрать дом </Nav.Link>
                             </Nav>
                             <Nav.Link href='/localization'>
                                     <img src={Localization} alt='Localization' style={{marginLeft: '-100px'}}/>
@@ -37,7 +37,7 @@ export default class Header extends Component {
                                     <img src={Social} alt='Social' style={{marginRight: '30px'}}/>
                                 </Nav.Link>
                                 <div>
-                                    <Nav.Link href='tel:0550012208'>0550 01 22 08</Nav.Link>
+                                    <Nav.Link style={{color: '#253659'}} href='tel:0550012208'>0550 01 22 08</Nav.Link>
                                     <Nav.Link href='tel:0777329546'>0777 32 95 46</Nav.Link>
                                 </div>
                             <Form className='d-flex'>
